@@ -226,4 +226,12 @@ footer a {
     nav>li{display: inline;}
 
     
-}/* NON SONO RIUSCITO A FINIRE LA PARTE DESKTOP PER CONSEGNA IMMINENTE*/
+}
+
+@media print{
+    body{background-image: none;
+        line-height: 1em;
+    }
+    header{display: none;}
+} 
+    
